@@ -1,6 +1,6 @@
 package com.example.weatherapp;
 
-public class WeatherRVModel {
+public class WeatherRVModal {
 
     private String time;
     private String temperature;
@@ -39,7 +39,7 @@ public class WeatherRVModel {
         this.windSpeed = windSpeed;
     }
 
-    public WeatherRVModel(String time, String temperature, String icon, String windSpeed) {
+    public WeatherRVModal(String time, String temperature, String icon, String windSpeed) {
         this.time = time;
         this.temperature = temperature;
         this.icon = icon;
