@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
         //to search
         searchIV.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 String city = cityEdt.getText().toString();
